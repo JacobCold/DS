@@ -88,7 +88,7 @@ console.log("My new object", myNewObject);
 //g)* opisz krótko czym dokładnie jest typ NaN
 //NaN to wartość reprezentuje not a number, najczęściej jest wynikiem błędnego działania w JS.
 //np. mnożenia stringa "string" razy number np 5. W takiej sytuacji JS nie potrafi przekonwertować
-// stringa na number i z takiego działania wychodzi wartość NaN. Co ciekawe sam NaN ma przypisany typ
+// stringa na number i z takiego działania wychodzi wartość NaN. Co ciekawe, sam NaN ma przypisany typ
 // Number więc przy pisaniu programów trzeba pamiętać o zabezpieczeniu się na taki wypadek.
 
 //h)** znajdź w sieci informacje o typie Symbol i opisz go krótko
@@ -107,7 +107,7 @@ function sumOfThree(num1, num2, num3) {
 }
 
 console.log(
-  "Wyświetlam wynik funkcji sumOfThree dla trzech parametrów - 5, 4 i 3: ",
+  "Wyświetlam wynik funkcji sumOfThree dla trzech parametrów: 5, 4 i 3: ",
   sumOfThree(5, 4, 3)
 );
 
