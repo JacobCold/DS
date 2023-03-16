@@ -287,10 +287,10 @@ const fromZeroToMinusTenCount = () => {
   }
 };
 
-//e) napisz pętlę która odliczy od 1 do 2, iteracja co 2
-//O ile dobrze zrozumiałem polecenie ale to tutaj niestety odliczy tylko do 1 jeżeli iteracja co 2
-const fromOneToTwoCount = () => {
-  for (let i = 1; i <= 2; i += 2) {
+//e) napisz pętlę która odliczy od 1 do 20, iteracja co 2
+
+const fromOneToTwentyCount = () => {
+  for (let i = 1; i <= 20; i += 2) {
     console.log(i);
   }
 };
